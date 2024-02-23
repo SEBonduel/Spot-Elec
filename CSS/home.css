@@ -139,6 +139,9 @@ video {
     .title2{
         font-size: 14px;
     }
+    .website:hover{
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 400px) {
