@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="/CSS/website.css">
+    <title>Spot'Elec</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a class="logo-on-click" href="/home.html"><img id="logo-entreprise" src="Medias/logo-spotelec.png">SPOT'ELEC</a>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="/website.html" class="nav-link">Accueil</a></li>
+      <li><a href="/price.html" class="nav-link">Tarifs</a></li>
+      <li><a href="/contact.html" class="nav-link">Contact</a></li>
+
+    </ul>
+        </div>
+    <script src="/JS/activeLink.js"></script>
+    <script src="/JS/navbarScroll.js"></script>
+    <div class="background-img-spotelec"></div>
+    <div class="info-div">
+        <h2 class="info1">Souhaitez-vous qu'une équipe prenne soin de vous ? Notre engagement : chaque client se sentira unique.</h2>
+        <h2 class="info2">Nous voulons que nos clients soient satisfaits, nous vous recontacterons donc pour savoir si notre prestation vous à convenu.</h2>
+    </div>
+    <div class="where">
+        <h2 class="where-title">Nous nous situons dans la commune de BAYECOURT (88150) à 19 kilomètres d'ÉPINAL et à 60 kilomètres de NANCY</h2>
+    </div>
+    <div class="contact">
+        <div id="map"></div>
+        <script src="/JS/map.js"></script>
+        <div class="contact-info">
+            <h2 class="contact-title">Contactez-nous</h2>
+            <div class="contact-text">
+                <h2 class="contact-subtitle">Gérants : MICHEL Laura, MICHEL Arnaud </h2>
+                <p class="contact-num">Téléphone : 06 23 35 03 94</p>
+                <p class="contact-mail">Adresse mail : contact@spotelec.fr</p>
+                <p class="contact-text"> <a id="mail-to" href="mailto:contact@spotelec.com">Envoyer un email</a></p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-text">
+            <p class="footer-text-sarl"> SARL au Capital de 2500 euros, S.social situé au 345 rue de lorraine 88150 Bayecourt. Inscrit au répertoire des metiers n°913098554 RCS Epinal NAF 4321A  - TVA intracommunautaire FR57913098554</p>
+            <div class="all-rights">
+            <p class="footer-text1">© 2022 SPOT'ELEC | Tous droits réservés</p>
+            <p class="footer-text2"></p>
+            </div>
+        </div>
+    
+      
+</body>
+</html>
