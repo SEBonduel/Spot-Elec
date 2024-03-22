@@ -87,11 +87,14 @@ body, h1, h2, h3, p, ul {
     font-size: 36px;
 }
 
+
 #logo-entreprise {
     width: 60px;
     height: 60px;
     margin-right:0.5em;
+    border-radius:50%;
 }
+
 
 .navbar.transparent {
     background-color: rgb(0, 0, 0) !important;
@@ -151,6 +154,35 @@ body, h1, h2, h3, p, ul {
     margin-top:1em;
     padding-bottom:2.5em;
     font-family: 'Righteous', sans-serif;
+}
+
+.devis-title1,.devis-title2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 4px;
+    margin-bottom:1em;
+    cursor: default;
+    color:rgb(204, 70, 29);
+    padding-top:1em;
+}
+
+
+
+.devis-subtitle{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 4px;
+    margin-bottom:1em;
+    cursor: default;
+    color:white;
+    padding-top:1em;
+    margin-left:1em;
+    margin-right:1em;
+
 }
 
 .carousel {
