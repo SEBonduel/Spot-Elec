@@ -15,4 +15,4 @@ function updateCarousel() {
   images.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
 }
 
-setInterval(nextSlide, 3000); // Change d'image toutes les 3 secondes
+setInterval(nextSlide, 5000); // Change d'image toutes les 3 secondes

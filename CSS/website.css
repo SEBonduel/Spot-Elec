@@ -59,6 +59,8 @@ body, h1, h2, h3, p, ul {
     font-weight: bold;
     transition: 0.3s;
     font-size:22px;
+    padding: 0.3em;
+
 }
 
 .nav-link {
@@ -79,12 +81,15 @@ body, h1, h2, h3, p, ul {
     align-items: center;
     justify-content: center;
     transition:0.5s;
+    padding:0.15em;
 }
 
 .logo-on-click:hover {
     color: yellow;
     transition:0.5s;
     font-size: 36px;
+    box-shadow: yellow 0px 0px 10px; 
+    border-radius: 20px;
 }
 
 
@@ -93,6 +98,12 @@ body, h1, h2, h3, p, ul {
     height: 60px;
     margin-right:0.5em;
     border-radius:50%;
+    transition: 0.5s;
+}
+
+#logo-entreprise:hover {
+   box-shadow: yellow 0px 0px 10px; 
+   transition: 0.5s;
 }
 
 
@@ -203,7 +214,8 @@ body, h1, h2, h3, p, ul {
     border-radius: 10px;
 
 }
-  #tableau,#tableau2,#outside,#voiture {
+
+#pngegg,#tableau,#tableau2,#outside,#voiture {
     height: auto;
     width: 100%;
     max-width: 375px;
@@ -475,7 +487,13 @@ body, h1, h2, h3, p, ul {
   
   /*===============================MEDIA QUERIES===============================*/
   
-  
+    
+  @media (max-width: 1450px) {
+    .info1,.info2{
+        text-align: center;
+        font-size: 20px;
+    }
+}
   
   @media (max-width: 1250px) {
       .contact{
@@ -494,9 +512,30 @@ body, h1, h2, h3, p, ul {
     }
     .contact{
         padding-top:0;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
+
+    .contact-title{
+        text-align: center;
+    }
+
+    .contact-text{
+        text-align: center;
+        margin-bottom:3em;
+    }
+
     .price-title{
         padding-top:0;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .info1,.info2{
+        text-align: center;
+        font-size: 18px;
     }
   }
 
@@ -508,11 +547,23 @@ body, h1, h2, h3, p, ul {
     .work{
         font-size: 18px;
     }
+
+    .where-title{
+        font-size: 18px;
+    }
+
+    .contact-title{
+        font-size: 28px;
+    }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     .menu-button-container {
       display: flex;
+    }
+
+    label.menu-button-container {
+        margin-right: 1em;
     }
 
     .menu {
@@ -548,8 +599,7 @@ body, h1, h2, h3, p, ul {
       padding: 0.5em 0;
       width: 100%;
       color: white;
-      background-color: #222;
-    }
+      background-color: rgb(15, 15, 15, 0.85);    }
 
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
@@ -581,5 +631,53 @@ body, h1, h2, h3, p, ul {
         font-size: 34px;
     }
   }
+
+
+  @media (max-width: 720px) {
+    #zones{
+        width: 300px;
+        height: 250px;
+    }
+    .info2,.info1{
+        text-align: center;
+    }
+  }
+
+    @media (max-width: 450px) {
+  #map {
+    height: 275px;
+    width: 275px;
+  }
+
+  .where-title{
+    font-size: 14px;
+  }
+
+  .contact-title{
+    font-size: 24px;
+  }
+  .contact-subtitle{
+    font-size: 14px;
+  }
+    .contact-num{
+        font-size: 14px;
+    }  
+    .contact-mail{
+        font-size: 14px;
+    }
+   #mail-to{
+       font-size: 1em;
+   }
+
+   .info1,.info2{
+       font-size: 16px;
+   }
+   .devis-title2{
+       font-size: 40px;
+   }
+    .devis-subtitle{
+         font-size: 16px;
+    }
+}
 
   
