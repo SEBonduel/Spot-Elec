@@ -354,6 +354,10 @@ body, h1, h2, h3, p, ul {
     font-style: italic;
 }
 
+#sebastiendemange{
+    color:yellow;
+}
+
 .footer-text-sarl,.footer-text1,.footer-text2{
     background-color: black;
     margin-bottom: 0.5em;
